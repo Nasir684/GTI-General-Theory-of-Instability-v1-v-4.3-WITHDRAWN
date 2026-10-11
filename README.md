@@ -1,81 +1,73 @@
-# GTI v4.3 Confirmation - LIGO O4 10of10 PASS - Wana, South Waziristan
-**General Theory of Instability: From Contradiction to Bubble to Intelligence**
+# ⚠️ WITHDRAWN — GTI v4.3 — DO NOT USE OR CITE — REPLACED BY v2.1
 
-**Author:** Nasir Khan — Wana Lab, Wana, South Waziristan, Pakistan  
-ORCID: 0009-0002-6006-0796 | nasirk684@gmail.com  
-Date: 05 Oct 2026 | License: CC BY 4.0 / MIT Code  
-Civilian Only: <1mJ per node <1J total ITAR-free EAR99  
-GitHub: https://github.com/Nasir684/GTI-General-Theory-of-Instability  
-Zenodo V4.3: https://doi.org/10.5281/zenodo.23172595 | Concept: https://doi.org/10.5281/zenodo.22896411 | GTI-1.0: https://doi.org/10.5281/zenodo.22804485 v2
+[[DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23172595.svg)](https://doi.org/10.5281/zenodo.23172595)
+**Status: WITHDRAWN 12 Oct 2026 | Author: Nasir Khan — Wana Lab, Wana, South Waziristan, Pakistan**
+**ORCID: 0009-0002-6006-0796 | nasirk684@gmail.com | License: CC BY 4.0 / MIT (Archived)**
+**New Active Repo: https://github.com/Nasir684/GTI-v2.1-eternal-instability**
 
-### DOI Chain
-Concept 22731094 | V2.1.0 FINAL 22852524 | V3.1 FINAL 22857083 [Universal Regulator M_stab=0.5Φ³] | V4.2 Triple 22896411 | SDE-Physics 22682258 | GTI-1.0 FINAL 22804485 | N=1000 Addendum 22804485 v2 | V4.3 Confirmation 23172595 [10of10 PASS]
+> This repository (v1 through v4.3) is archived read-only as audit trail. All claims below are retained for record but formally withdrawn.
 
-### V4.3 CONFIRMATION - LIGO O4 10of10 PASS
-**Validation of GTI N-Sync Filter on Public LIGO O4 Data**
+### DOI Chain (Historical)
+Concept 22731094 | V2.1.0 FINAL 22852524 | V3.1 FINAL 22857083 [M_stab=0.5Φ³ withdrawn] | V4.2 Triple 22896411 | SDE-Physics 22682258 | GTI-1.0 FINAL 22804485 | N=1000 Addendum 22804485 v2 | V4.3 Confirmation 23172595 [10of10 PASS withdrawn]
 
-- Dataset: 10 events GW230529 to GW230538 (LIGO O4 public strain)
-- Filter: N-Sync k(d)=k0/d, k0=0.8, seed 684 pre-registered 23 Sep 2026
-- Result: Avg Var 0.221 -> 0.120 (-45.7%), 10of10 PASS below GTI threshold 0.15
-- Foundation: Var as order parameter confirmed across scales
-- Wana Lab Match: 0.2203->0.1217 rho 0.909 min 0.8303 p=1.5e-4
-- Provenance: V4.2 23 Sep 2026 is BEFORE IR1 early-mid Nov 2026 per IGWN announcement 3 Sep 2026
-- Six signatures remain open for LOSC verification on GW250114_082203
+### WITHDRAWAL NOTICE — Autopsy Sec 2.4 (v2.1)
 
-Files: Fig0_Discovery_Summary_Wana.png, Fig1_LIGO_O4_10of10_PASS_Wana.png, Fig2_Six_Signature_Timeline.png, Sigma_WanaLab_RawData.csv, M_t_direct.csv, v4.2.py, GTI_v4.3.pdf
+**M_stab Regulator: 10³ → O(1) WRONG SIGN — Formally Withdrawn**
 
-### GTI-1.0 FINAL Addendum - N=1000 Single Population
-**Distance-Dependent Coupling Stabilizes N=1000 Stochastic Populations: A Control Analogue for Baryon Asymmetry Survival**
+Kramers: τ = (2π/√(κ_a κ_s)) exp(2ΔV/g²) — only three knobs: ΔV, κ, g.
 
-- Model: SDE Form A Twin-Noise dX_i = -gradU dt + σ1 dW_i1 + σ2 dW_i2 + Σ_j k(d_ij)*(X_j - X_i) dt
-- k(d) = k0 / d
-- Twin = twin-correlated noise W1,W2 on same bubble — not two species
-- Seed 684 pre-registered 23 Sep 2026
-- Result: Uncoupled 162 escapes +-15K Var 0.2203 | Coupled 0 escapes +-3K Var 0.1217 -44.76%
-- Energy: 5W ESP32 mesh 60s window <1J total <1mJ per node
-- Figure: T-Maximus-N-Sync - Panel A uncoupled 162, Panel B coupled 0, Panel C threshold k_c, Panel D hardware
-- Small Wiley Correspondence: a9cc6df6-9559-42d0-9051-9c81c3034b80 — Base: Zhang et al. Small 2025 DOI 10.1002/smll.202408979
+v1-v4.3 postulated Universal Regulator M_stab=0.5Φ³ / N-Sync k(d)=k₀/d with 10³ suppression / 44.76% Var reduction / 162→0 escapes.
 
-### Comparative Analysis — Recent Works (<18 months)
+Honest recomputation: regulator entered noise/barrier sector with wrong sign — accelerated nucleation instead of suppressing. Any Γ→0 claim via added term not stating where it lives among ΔV,κ,g is fabrication.
 
-This release includes comparative analysis with:
+Therefore:
+- M_stab suppression factor withdrawn
+- N-Sync Var 0.2203→0.1217 analogy to SDE stability withdrawn as proof of fundamental field
+- Twin-noise analogy retained only as control system, not fundamental physics
 
-1. Ciardiello et al., Proton-boron fusion via microbubble implosion: a preliminary study, Researching, Apr 13 2026
-2. Zhang et al., Configurable vibrational coupling between two microbubbles, Small, 2025, DOI:10.1002/smll.202408979
-3. Peraza-Acosta et al., CubeSat thermal subsystem, Sci Rep 15, 3695, 2025
-4. ACCURACy algorithm, Remote Sensing, 2025, DOI:10.3390/rs17030486
+### LIGO O4 10of10 PASS — WITHDRAWN
 
-Full paper: `FINAL_PAPER_GTI_COMPARATIVE.md` and `GTI-1.0-Addendum-N1000.pdf`
+Below claim from v4.3 README retained for record, but WITHDRAWN as GTI prediction:
 
-**N-Sync Result:** N=1000 single population, <1mJ/node, total <1J, k∝1/d, 5W flatsat, Var 0.2203 → 0.1217 (-44.76%), escapes 162/10k → 0/10k
+> [OLD CLAIM] Dataset: 10 events GW230529 to GW230538, N-Sync filter k0=0.8 seed 684, Avg Var 0.221->0.120 (-45.7%) 10of10 PASS threshold 0.15, Wana Lab Match 0.2203->0.1217 rho 0.909
 
-| Feature | Ciardiello 2026 | Zhang 2025 | Peraza 2025 | N-Sync GTI 2026 |
-|---|---|---|---|---|
-| Goal | p-B fusion prelim | 2-bubble sync | CubeSat thermal | thermal control + control analogue |
-| Drive | kJ laser+gold | mJ photothermal | W heaters | <1mJ |
-| Method | EPOCH PIC | camera | vacuum test | SDE Python + ESP32 |
+**Withdrawal:** v2.1 makes NO testable prediction for LIGO O4/O5, echo, white-hole burst, direct wave 0.12-0.135s C_H1L1 0.9→0.98 @302Hz, 0.27s/0.42s echo, 2ms anti-chirp 302→180Hz, without an independently derived V_eff for merger remnant. Chapter closed pending such derivation. The six signatures are open questions, not GTI predictions.
 
-### Foucault Trailer V4.3
+**Consequence:** GTI v2.1 has no LIGO closure — it has LIGO silence by design.
 
-**video/gti_foucault.jpg** = Twin-Noise plot
-- Locked Form A: dΦ=-(1.5Φ³-Φ)dt+0.3dW, M_stab=0.5Φ³, seed 684
-- Left M(t) OFF: Var 0.2203, escapes 162/10k, Kramers 1.6e-5
-- Right M(t) ON: shared σ_s=1.0 + private σ_i=0.48, ρ=0.02→0.909→0.974→0.991 → Var 0.1217 -44.76%, escapes 0/10k, Kramers 3.2e-8
+### N=1000 Addendum — Reinterpreted
 
-**video/gti_foucault_trailer.mp4** = Animated scan
+SDE Form A dX_i = -gradU dt + σ1 dW_i1 + σ2 dW_i2 + Σ_j k(d_ij)(X_j-X_i) dt, k(d)=k0/d, 5W ESP32 mesh <1J total <1mJ per node — remains valid as engineering control demo, NOT as fundamental baryon asymmetry proof.
 
-Axioms
-A1 Non-Locality: F non-local ρ→1 ground shared σ_s dW_s
-A2 Contradiction: F contains X∧¬X → dF/dt≠0
-A3 Stability as Exception: M_global→0+
+Paper: FINAL_PAPER_GTI_COMPARATIVE.md and GTI-1.0-Addendum-N1000.pdf remain in this archive for audit.
 
-Falsifiable Tests — Pre-registered 23 Sep 2026
-- A) Direct Wave 0.12-0.135s post-merger C_H1L1 0.9→0.98 @302Hz
-- B) Echo 0.27s and 0.42s
-- C) White-Hole Burst 2ms anti-chirp 302→180Hz
-- P2 Λ decay, P3 Δα/α
+### What Survives to v2.1
 
-Hash & Safety: 5x SHA256 15 Sep 2026 15:30 PKT | ITAR-free EAR99 | CC BY 4.0 / MIT
-Small Correspondence: a9cc6df6-9559-42d0-9051-9c81c3034b80
+- Bounded C² potential, infinite degenerate wells V(a_n)=v₀
+- No normalizable stationary density → null recurrence → stability as conditional MFPT
+- Width schedule fundamental: W_n=W₀n^{β/2}, τ_n=τ₀W_n exact, τ₀=(2√π/gω₀)exp(2ΔV/g²)I_φ
+- Parameter-free ratio law: τ_{n+1}/τ_n=(1+1/n)^{β/2}
+- Falsifiable slope: logτ=-½logκ at fixed ΔU via T_cr,n=ħ√(κ_n/m)/2πk_B
+- Testbed moved to Josephson: C-sweep logτ=½logC, bias leverage r(s)≈3/(4(1-s))
 
-Constraint→Force→Factors→M_stab→3D+1T→fields→charges→particles→memory→observer→time
+### What To Use Instead — GTI v2.1 Eternal Instability
+
+Repo: https://github.com/Nasir684/GTI-v2.1-eternal-instability
+Paper: gti_v2.1.pdf — No regulator, exact hierarchy, one falsifiable slope
+New Zenodo DOI: will be minted on v2.1-final release, linked as isNewVersionOf 10.5281/zenodo.23172595
+Falsifiers: F1 demonstration Γ≡0 decay-proof state, F2 slope ≠ -½ beyond Q-dispersion
+
+### Citation Instruction
+
+**DO NOT CITE THIS REPO (v4.3) ANYMORE.**
+
+Cite:
+> Ali, Nasir Khan (2026) GTI v2.1 — Eternal Instability: Stability as the Limit of Finite Dwell Times. Zenodo. https://github.com/Nasir684/GTI-v2.1-eternal-instability
+
+Small Wiley Correspondence a9cc6df6-9559-42d0-9051-9c81c3034b80 — Base: Zhang et al. Small 2025 DOI 10.1002/smll.202408979 — archived for record.
+
+### Safety & Provenance (Historical)
+
+Civilian Only: <1mJ per node <1J total ITAR-free EAR99 | 5x SHA256 15 Sep 2026 15:30 PKT | Hash retained for audit.
+
+Constraint→Force→Factors→M_stab[withdrawn]→3D+1T→fields→charges→particles→memory→observer→time — chain broken at M_stab in v2.1, replaced by W_n schedule.
